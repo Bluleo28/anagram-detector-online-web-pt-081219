@@ -6,10 +6,10 @@ class Anagram
   end
   def detector(ba)
     ba = detector.match (["ab", "abc", "bac"])
-  end 
+  end
   def detector(listen)
       listen = detector.match(%w(enlists google inlets banana))
-  end 
+  end
   def detector(allergy)
       allergy = detector.match(%w(gallery ballerina regally clergy largely leading))
     end
