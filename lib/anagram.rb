@@ -9,6 +9,7 @@ class Anagram
     (@word.split("").sort) == (element.split("").sort)
   end
 end
+end
 #   def detector(listen)
 #       listen == (%w(enlists google inlets banana))
 #   end
