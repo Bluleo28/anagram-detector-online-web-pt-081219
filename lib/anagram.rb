@@ -1,8 +1,8 @@
 class Anagram
-  attr_accessor :diaper
+  attr_accessor :word
 
-  def initialize(diaper)
-      diaper.match(%w(hello world zombies pants dipper))
+  def initialize(word)
+      @word = word 
   end
   def detector(ba)
       ba == (["ab", "abc", "bac"])
